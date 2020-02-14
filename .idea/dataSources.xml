@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="tzjsbi" uuid="f74b9c53-63ff-4148-b388-89a5d0c68ec7">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>泰州经分数据库</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@172.30.170.4:1521:jsbi1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Apache Hive  on Cloud" uuid="699b4490-dac8-4bd6-aade-153199cc3930">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>腾讯云Hive</remarks>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://kafka01.jscnnet.com:2181,kafka02.jscnnet.com:2181,kafka03.jscnnet.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2</jdbc-url>
+    </data-source>
+  </component>
+</project>
